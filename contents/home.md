@@ -15,5 +15,5 @@ B.E., Construction Management, Southeast University (SEU), 2021 to 2025.\
 Visiting Student, [BIOR lab](https://maomaohu.net/people/), National University of Singapore (NUS), Jul 2024 to Dec 2024
 
 #### Research Interests
-Interdependent Infrastructure, Large Language Models, Deep Learning.
+Interdependent Infrastructure; Large Language Models; Deep Learning.
 
