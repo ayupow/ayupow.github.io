@@ -1,16 +1,15 @@
 #### Submitted
 
-- <strong>S. Li</strong>, X. Yang*, A. Cao*, K. Fan, Y. Liu, C. Wang, and Q. Niu. LaNCoR: Label Noise-Contrastive Robust Learning for Seismic Signal Processing with Application to Microseismic Arrival Time Picking. <strong>Rej :)</strong> [[Code]](https://github.com/senli1073/LaNCor)
+- manuscript 01 [[Code]](https://github.com/ayupow/Smart-Agents-for-the-Recovery-of-Interdependent-Infrastructure-Networks)
 
-#### Published
+- manuscript 02
 
-- X. Yang, <strong>S. Li</strong>, A. Cao*, C. Wang*, Y. Liu, X. Bai, and Q. Niu (2024). Deep Transfer Learning for P-wave Arrival Identification and Automatic Seismic Source Location in Underground Mines. <strong>International Journal of Rock Mechanics and Mining Sciences</strong>. [[Paper]](https://doi.org/10.1016/j.ijrmms.2024.105888)
+#### Journal papers
+- [1]. Zhou, S., <strong>Wang, H.</strong>, Li, D.*, Ng, S. T., Wei, R., Zhao, Y., & Zhou, Y. (2024). Revealing public attitudes toward mobile cabin hospitals during Covid-19 pandemic: Sentiment and topic analyses using social media data in China. <strong>Sustainable Cities and Society</strong>, 107, 105440. [[Paper]](https://www.sciencedirect.com/science/article/pii/S2210670724002683)[[Code]](https://github.com/0AnonymousSite0/Mining-Social-Media-Data-for-Revealing-Public-Attitudes-toward-Mobile-Cabin-Hospitals)
 
-- <strong>S. Li</strong>, X. Yang*, A. Cao*, C. Wang, Y. Liu, Y. Liu, and Q. Niu (2024). SeisT: A Foundational Deep-Learning Model for Earthquake Monitoring Tasks. <strong>IEEE Transactions on Geoscience and Remote Sensing</strong>. [[Paper]](https://doi.org/10.1109/TGRS.2024.3371503) [[Code]](https://github.com/senli1073/SeisT)
+- [2]. <strong>Wang, H.</strong>, Hua, W., Peng, J., & Hu, M.* (2025). Public sentiment analysis of data center energy consumption using social media data and large language models. <strong>Energy and Buildings</strong>, 115802. [[Paper]](https://www.sciencedirect.com/science/article/pii/S0378778825005328)[[Code]](https://github.com/bior-lab/sentimental_analysis_data_center_energy_consumption)
 
-- A. Cao, X. Yang, C. Wang*, <strong>S. Li</strong>, Y. Liu, L. Dou, and Q. Niu (2023). High-Precision Phase Picking and Automatic Source Locating Method for Seismicity in Mines Based on Deep Transfer Learning. <strong>Journal of China Coal Society</strong>. [[Paper]](https://doi.org/10.13225/j.cnki.jccs.2023.0095)
+- [3]. Zhou, S., <strong>Wang, H.</strong>, Ng, S. T., Li, D.*, Xie, S., Chen, K., & Wang, W. (2025). Building a construction law knowledge repository to enhance general-purpose large language model performance on domain question-answering: a case of China. <strong>Engineering, Construction and Architectural Management</strong>. Early Access. [[Paper]](https://www.emerald.com/ecam/article-abstract/doi/10.1108/ECAM-06-2024-0701/1259739/Building-a-construction-law-knowledge-repository?redirectedFrom=fulltext) [[Code]](https://github.com/0AnonymousSite0/Question_Answering_of_Construction_Laws)
 
-- A. Cao, Y. Liu, X. Yang*, <strong>S. Li</strong>, C. Wang, X. Bai, and Y. Liu (2022). Physical Index and Data Fusion-Driven Method for Coal Burst Prediction in Time Sequence. <strong>Journal of China Coal Society</strong>. [[Paper]](https://doi.org/10.13225/j.cnki.jccs.2022.0680)
-
-- X. Yang, X. Yu, C. Zhang, <strong>S. Li</strong>, and Q. Niu (2021). MineGPS: Battery-Free Localization Base Station for Coal Mine Environment. <strong>IEEE Communications Letters</strong>. [[Paper]](https://doi.org/10.1109/LCOMM.2021.3081593)
-
+#### Conference papers
+- [1]. Zhou, S., <strong>Wang, H.</strong>, Cheng, X., Li, D.*, Chen, Z., Wei, R., & Ng, S. T. (2024). Incorporating Domain Knowledge Repository into Large Language Models for Question-Answering of Construction Laws and Regulations in China. International Conference on Computing in Civil Engineering (I3CE), American Society of Civil Engineers (ASCE), Pittsburgh, USA.
