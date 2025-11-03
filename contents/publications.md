@@ -1,8 +1,10 @@
 #### Submitted
 
-- manuscript Andrew [[Code]](https://github.com/ayupow/Smart-Agents-for-the-Recovery-of-Interdependent-Infrastructure-Networks)
+- manuscript 01 [[Code]](https://github.com/ayupow/Smart-Agents-for-the-Recovery-of-Interdependent-Infrastructure-Networks)
 
-- manuscript Mark
+- manuscript 02
+
+- An abstract submitted to ××× conference on ×××
 
 #### Journal papers
 - Zhou, S., <strong>Wang, H.</strong>, Li, D.*, Ng, S. T., Wei, R., Zhao, Y., & Zhou, Y. (2024). Revealing public attitudes toward mobile cabin hospitals during Covid-19 pandemic: Sentiment and topic analyses using social media data in China. <strong>Sustainable Cities and Society</strong>, 107, 105440. [[Paper]](https://www.sciencedirect.com/science/article/pii/S2210670724002683)[[Code]](https://github.com/0AnonymousSite0/Mining-Social-Media-Data-for-Revealing-Public-Attitudes-toward-Mobile-Cabin-Hospitals)
