@@ -77,19 +77,34 @@
 
     <!-- 【新增】针对 Publications 图片的样式设置 -->
     <style>
-        /* 
-         * 针对 #publications-md 区域内的所有图片：
-         * 1. 宽度设为50%
-         * 2. 高度自动
-         * 3. 可以在 markdown 里使用 ![](publication/filename.jpg) 引用
-         */
-        #publications-md img {
-            width: 50%;
-            height: auto;
-            display: block;       /* 让图片独占一行，如果想文字环绕可以改成 float: left */
-            margin: 10px 0;       /* 上下留白 */
-            border: 1px solid #ddd; /* 可选：加个边框 */
-            border-radius: 4px;     /* 可选：圆角 */
+        /* 图片容器：让两张图片左右并排 */
+        .pub-images-box {
+            display: flex;              /* 启用弹性布局 */
+            justify-content: space-between; /* 两端对齐（中间留空） */
+            gap: 10px;                  /* 图片之间的间距 */
+            margin-top: 10px;           /* 图片和上方文字的距离 */
+            margin-bottom: 20px;        /* 图片和下方下一篇论文的距离 */
+            width: 100%;
+        }
+
+        /* 图片本身：宽度约为一半 */
+        .pub-images-box img {
+            width: 49%;                 /* 设为 49% 是为了留一点缝隙，防止换行 */
+            height: auto;               /* 高度自动维持比例 */
+            object-fit: cover;          /* 如果图片比例不同，保持填充 */
+            border-radius: 4px;         /* 圆角美化 */
+            border: 1px solid #eee;     /* 极细的边框 */
+        }
+        
+        /* 手机端适配：屏幕太窄时变成上下排列 (可选) */
+        @media (max-width: 600px) {
+            .pub-images-box {
+                flex-direction: column;
+            }
+            .pub-images-box img {
+                width: 100%;
+                margin-bottom: 10px;
+            }
         }
     </style>
 
