@@ -75,6 +75,24 @@
     <script type="text/javascript" src="static/js/scripts.js"></script>
     <script type="text/javascript" src="static/js/js-yaml.min.js"></script>
 
+    <!-- 【新增】针对 Publications 图片的样式设置 -->
+    <style>
+        /* 
+         * 针对 #publications-md 区域内的所有图片：
+         * 1. 宽度设为50%
+         * 2. 高度自动
+         * 3. 可以在 markdown 里使用 ![](publication/filename.jpg) 引用
+         */
+        #publications-md img {
+            width: 50%;
+            height: auto;
+            display: block;       /* 让图片独占一行，如果想文字环绕可以改成 float: left */
+            margin: 10px 0;       /* 上下留白 */
+            border: 1px solid #ddd; /* 可选：加个边框 */
+            border-radius: 4px;     /* 可选：圆角 */
+        }
+    </style>
+
 </head>
 
 <body id="page-top">
@@ -106,7 +124,21 @@
     </nav>
 
     <!-- Top Section -->
-    <section class="top-section" style="background-image: url('static/assets/img/background.jpeg');">
+    <!-- 【修改】背景图片样式：宽度100%，高度按比例自适应 -->
+    <!-- 请务必修改 aspect-ratio: 16/9 中的数值为你实际图片的 宽/高 比例 -->
+    <section class="top-section" style="
+        background-image: url('static/assets/img/background.jpeg');
+        background-size: 100% auto;    /* 宽度撑满，高度自动 */
+        background-repeat: no-repeat;
+        background-position: center top;
+        width: 100%;
+        aspect-ratio: 16/9;            /* 核心：锁定长宽比，防止高度塌陷。按需修改这个比例 */
+        height: auto !important;       /* 覆盖原有样式 */
+        padding: 0 !important;         /* 移除内边距 */
+        display: flex;                 /* 布局方式，方便内部文字居中 */
+        align-items: center;
+        justify-content: center;
+    ">
         <div class="top-section-content">
             <div class="container px-5">
                 <h2 id="top-section-bg-text" class="text-white display-3 lh-1 font-alt"></h2>
@@ -141,6 +173,7 @@
             <header>
                 <h2 id="publications-subtitle"><i class="bi bi-file-text-fill"></i>&nbsp;PUBLICATIONS</h2>
             </header>
+            <!-- 这里的内容由 JS 动态加载，CSS 样式已在 head 中添加 -->
             <div class="main-body" id="publications-md"></div>
 
         </div>
