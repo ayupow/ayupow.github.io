@@ -77,33 +77,39 @@
 
     <!-- 【新增】针对 Publications 图片的样式设置 -->
     <style>
-        /* 图片容器：让两张图片左右并排 */
         .pub-images-box {
-            display: flex;              /* 启用弹性布局 */
-            justify-content: space-between; /* 两端对齐（中间留空） */
-            gap: 10px;                  /* 图片之间的间距 */
-            margin-top: 10px;           /* 图片和上方文字的距离 */
-            margin-bottom: 20px;        /* 图片和下方下一篇论文的距离 */
+            display: flex;
+            flex-wrap: wrap;        /* 如果图片太宽，允许换行 */
+            gap: 15px;              /* 图片之间的间距 */
+            margin-top: 10px;
+            margin-bottom: 20px;
             width: 100%;
         }
 
-        /* 图片本身：宽度约为一半 */
         .pub-images-box img {
-            width: 49%;                 /* 设为 49% 是为了留一点缝隙，防止换行 */
-            height: auto;               /* 高度自动维持比例 */
-            object-fit: cover;          /* 如果图片比例不同，保持填充 */
-            border-radius: 4px;         /* 圆角美化 */
-            border: 1px solid #eee;     /* 极细的边框 */
+            /* 
+             * 【关键修改】
+             * 高度设为固定值（例如 200px），
+             * 宽度设为 auto（按原图比例显示）。
+             * 如果觉得图片太大或太小，请调整 height 的数值。
+             */
+            height: 200px;          
+            width: auto;            
+            
+            max-width: 100%;        /* 即使在很窄的屏幕上，图片也不会超过屏幕宽度 */
+            object-fit: contain;    /* 保持图片内容完整 */
+            border-radius: 4px;     
+            border: 1px solid #eee; 
         }
         
-        /* 手机端适配：屏幕太窄时变成上下排列 (可选) */
+        /* 手机端适配：屏幕太窄时，强制变回上下排列，宽度100% */
         @media (max-width: 600px) {
             .pub-images-box {
                 flex-direction: column;
             }
             .pub-images-box img {
                 width: 100%;
-                margin-bottom: 10px;
+                height: auto;       /* 手机上高度自动 */
             }
         }
     </style>
@@ -115,7 +121,6 @@
     <nav class="header navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
         <div class="container px-5">
             <a id="page-top-title" class="navbar-brand fw-bold" href="#page-top"></a>
-            <!-- <a href="#page-top"><img src="static/assets/img/CUMT_LOGO.svg" style="width: 11rem;"></a> -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 MENU
@@ -139,18 +144,16 @@
     </nav>
 
     <!-- Top Section -->
-    <!-- 【修改】背景图片样式：宽度100%，高度按比例自适应 -->
-    <!-- 请务必修改 aspect-ratio: 16/9 中的数值为你实际图片的 宽/高 比例 -->
     <section class="top-section" style="
         background-image: url('static/assets/img/background.jpeg');
-        background-size: 100% auto;    /* 宽度撑满，高度自动 */
+        background-size: 100% auto;    
         background-repeat: no-repeat;
         background-position: center top;
         width: 100%;
-        aspect-ratio: 1536/751;            /* 核心：锁定长宽比，防止高度塌陷。按需修改这个比例 */
-        height: auto !important;       /* 覆盖原有样式 */
-        padding: 0 !important;         /* 移除内边距 */
-        display: flex;                 /* 布局方式，方便内部文字居中 */
+        aspect-ratio: 1536/751;            
+        height: auto !important;       
+        padding: 0 !important;         
+        display: flex;                 
         align-items: center;
         justify-content: center;
     ">
@@ -175,7 +178,6 @@
         <div class="container px-5">
             <header>
                 <h2 id="home-subtitle"> </h2>
-                <!-- <span class="bi bi-list"></span> -->
             </header>
             <div class="main-body" id="home-md"></div>
         </div>
@@ -188,7 +190,6 @@
             <header>
                 <h2 id="publications-subtitle"><i class="bi bi-file-text-fill"></i>&nbsp;PUBLICATIONS</h2>
             </header>
-            <!-- 这里的内容由 JS 动态加载，CSS 样式已在 head 中添加 -->
             <div class="main-body" id="publications-md"></div>
 
         </div>
@@ -219,6 +220,20 @@
             </div>
         </div>
     </footer>
+
+    <!-- 自动让外链在新标签页打开的脚本 -->
+    <script>
+        document.addEventListener('click', function(e) {
+            const target = e.target.closest('a');
+            if (target && target.href) {
+                const href = target.getAttribute('href');
+                if (href && !href.startsWith('#')) {
+                    target.setAttribute('target', '_blank');
+                    target.setAttribute('rel', 'noopener noreferrer'); 
+                }
+            }
+        });
+    </script>
 
 </body>
 
