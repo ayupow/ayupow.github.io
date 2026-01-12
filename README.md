@@ -1,4 +1,4 @@
-# Please visit Hongyu's homepage by clicking: https://ayupow.github.io/.
+# Hongyu's homepage: https://ayupow.github.io/.
 
 
 
