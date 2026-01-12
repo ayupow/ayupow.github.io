@@ -10,9 +10,9 @@ ORCID: [0009-0009-6468-3318](https://orcid.org/my-orcid?orcid=0009-0009-6468-331
 Google Scholar: [Hongyu Wang](https://scholar.google.com/citations?hl=en&user=xns0U10AAAAJ)
 
 #### Education
-Jun 2025 to date              M.E. student, Construction Management, Southeast University (SEU)\
-Jul 2024 to Dec 2024       Visiting Student, [BIOR lab](https://maomaohu.net/people/), National University of Singapore (NUS)\
-Jun 2021 to Jun 2025       B.E. student, Construction Management, Southeast University (SEU)\
+Jun 2025 to date: M.E. student, Construction Management, Southeast University (SEU). Supervisor: [Shenghua Zhou](https://civil.seu.edu.cn/zsh/list.htm)\
+Jul 2024 to Dec 2024: Visiting Student, [BIOR lab](https://maomaohu.net/people/), National University of Singapore (NUS). Supervisor: [Maomao Hu](https://maomaohu.net/people/)\
+Jun 2021 to Jun 2025: B.E. student, Construction Management, Southeast University (SEU). Supervisor: [Shenghua Zhou](https://civil.seu.edu.cn/zsh/list.htm)
 
 #### Research Interests
 Interdependent Infrastructure; Large Language Models; Deep Learning.
