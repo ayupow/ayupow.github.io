@@ -191,33 +191,51 @@
         }
 
         /* =========================
-           Top section polish
-           ========================= */
+   Top section polish
+   ========================= */
 
-        .top-section {
-            position: relative;
-            overflow: hidden;
-        }
+.hero-section {
+    position: relative;
+    width: 100%;
+    padding: 0 !important;
+    margin: 0 !important;
+    overflow: hidden;
+    line-height: 0;
+}
 
-        .top-section::after {
-            content: "";
-            position: absolute;
-            inset: 0;
-            background: linear-gradient(
-                rgba(0, 0, 0, 0.08),
-                rgba(0, 0, 0, 0.12)
-            );
-            pointer-events: none;
-        }
+.hero-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
 
-        .top-section-content {
-            position: relative;
-            z-index: 1;
-        }
+.top-section-content {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: normal;
+}
 
-        #top-section-bg-text {
-            text-shadow: 0 5px 24px rgba(0, 0, 0, 0.35);
-        }
+.hero-section::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.08),
+        rgba(0, 0, 0, 0.12)
+    );
+    pointer-events: none;
+}
+
+#top-section-bg-text {
+    text-shadow: 0 5px 24px rgba(0, 0, 0, 0.35);
+}
 
         /* =========================
            Avatar polish
@@ -403,25 +421,14 @@
     </nav>
 
     <!-- Top Section -->
-    <section class="top-section" style="
-        background-image: url('static/assets/img/background.jpeg');
-        background-size: 100% auto;
-        background-repeat: no-repeat;
-        background-position: center top;
-        width: 100%;
-        aspect-ratio: 1536/751;
-        height: auto !important;
-        padding: 0 !important;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    ">
-        <div class="top-section-content">
-            <div class="container px-5">
-                <h2 id="top-section-bg-text" class="text-white display-3 lh-1 font-alt"></h2>
-            </div>
+<section class="top-section hero-section">
+    <img class="hero-image" src="static/assets/img/background.jpeg" alt="Background image">
+    <div class="top-section-content">
+        <div class="container px-5">
+            <h2 id="top-section-bg-text" class="text-white display-3 lh-1 font-alt"></h2>
         </div>
-    </section>
+    </div>
+</section>
     <!-- Top Section -->
 
     <!-- Photo -->
