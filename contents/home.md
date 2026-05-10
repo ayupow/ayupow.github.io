@@ -3,11 +3,11 @@ He is currently a master student in the School of Civil Engineering at Southeast
 
 #### Contact
 
-Email: hongyu@seu.edu.cn; cmhyw[at]outlook.com
+Email: hongyu[at]seu.edu.cn; cmhyw[at]outlook.com
 
 ORCID: [0009-0009-6468-3318](https://orcid.org/my-orcid?orcid=0009-0009-6468-3318)
 
-Google Scholar: [Hongyu Wang](https://scholar.google.com/citations?hl=en&user=xns0U10AAAAJ)
+[Google Scholar](https://scholar.google.com/citations?hl=en&user=xns0U10AAAAJ)
 
 #### Education
 Jun 2025 to date: M.E. student, Construction Management, Southeast University (SEU). Supervisor: [Shenghua Zhou](https://civil.seu.edu.cn/zsh/list.htm)\
