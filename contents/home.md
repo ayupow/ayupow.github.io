@@ -3,7 +3,7 @@ He is currently a master student in the School of Civil Engineering at Southeast
 
 #### Contact
 
-Email: hyw[at]seu.edu.cn; cmhyw[at]outlook.com
+Email: hongyu@seu.edu.cn; cmhyw[at]outlook.com
 
 ORCID: [0009-0009-6468-3318](https://orcid.org/my-orcid?orcid=0009-0009-6468-3318)
 
