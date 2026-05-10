@@ -33,7 +33,7 @@
 
 [[Paper]](https://www.sciencedirect.com/science/article/pii/S0378778825005328)[[Code]](https://github.com/bior-lab/sentimental_analysis_data_center_energy_consumption)
 
-- Zhou, S., <strong>Wang, H.</strong>, Ng, S. T., Li, D.*, Xie, S., Chen, K., & Wang, W. (2025). Building a construction law knowledge repository to enhance general-purpose large language model performance on domain question-answering: a case of China. <strong>Engineering, Construction and Architectural Management</strong>. Early Access. 
+- Zhou, S., <strong>Wang, H.</strong>, Ng, S. T., Li, D.*, Xie, S., Chen, K., & Wang, W. (2025). Building a construction law knowledge repository to enhance general-purpose large language model performance on domain question-answering: a case of China. <strong>Engineering, Construction and Architectural Management</strong>. 32 (13), 518–546. 
 
 <div class="pub-images-box">
       <img src="publication/paper2_fig1.png">
