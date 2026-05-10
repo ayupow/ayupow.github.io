@@ -195,70 +195,82 @@
             color: var(--primary-blue) !important;
         }
 
-        /* =========================
-           Top section polish
-           ========================= */
+       /* =========================
+   Top section polish
+   ========================= */
 
-        .hero-section {
-            position: relative;
-            width: 100%;
-            padding: 0 !important;
-            margin: var(--nav-height) 0 0 0 !important;
-            overflow: visible;
-            line-height: 0;
-            background: #ffffff;
-        }
+.hero-section {
+    position: relative;
+    width: 100%;
+    padding: 0 !important;
+    margin: 0 !important;
+    overflow: hidden;
+    line-height: 0;
+    background: #ffffff;
+}
 
-        .hero-image {
-            display: block;
-            width: 100%;
-            height: auto;
-            max-width: 100%;
-            margin: 0;
-            padding: 0;
-        }
+.hero-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
 
-        .hero-section::after {
-            content: "";
-            position: absolute;
-            inset: 0;
-            z-index: 1;
-            background: linear-gradient(
-                rgba(0, 0, 0, 0.08),
-                rgba(0, 0, 0, 0.18)
-            );
-            pointer-events: none;
-        }
+.hero-overlay {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.18),
+        rgba(0, 0, 0, 0.28)
+    );
+    pointer-events: none;
+}
 
-        .top-section-content {
-            position: absolute;
-            inset: 0;
-            z-index: 2;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            line-height: normal;
-            text-align: center;
-            pointer-events: none;
-        }
+.top-section-content {
+    position: absolute !important;
+    inset: 0 !important;
+    z-index: 2;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center;
+    line-height: normal;
+    pointer-events: none;
+    transform: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
 
-        #top-section-bg-text {
-            max-width: 1100px;
-            margin: 0 auto;
-            font-weight: 700;
-            letter-spacing: 0.02em;
-            text-shadow: 0 5px 24px rgba(0, 0, 0, 0.42);
-        }
+.top-section-content .container {
+    position: relative;
+    z-index: 3;
+}
+
+#top-section-bg-text {
+    position: relative !important;
+    max-width: 1100px;
+    margin: 0 auto !important;
+    padding: 0 1rem;
+    font-weight: 800;
+    letter-spacing: 0.02em;
+    line-height: 1.15 !important;
+    color: #ffffff !important;
+    text-shadow: 0 5px 24px rgba(0, 0, 0, 0.55);
+    transform: none !important;
+}
 
         /* =========================
            Avatar polish
            ========================= */
 
         #avatar {
-            position: relative;
-            z-index: 5;
-            margin-top: -42px;
-            margin-bottom: 1.5rem;
+    position: relative;
+    z-index: 5;
+    margin-top: 28px;
+    margin-bottom: 1.5rem;
         }
 
         #avatar img {
@@ -382,7 +394,7 @@
             }
 
             #avatar {
-                margin-top: -34px;
+                margin-top: 24px;
             }
         }
 
@@ -407,9 +419,9 @@
             }
 
             #avatar {
-                margin-top: -26px;
-                margin-bottom: 1rem;
-            }
+    margin-top: 20px;
+    margin-bottom: 1rem;
+}
 
             #home {
                 padding-top: 2.5rem;
@@ -475,18 +487,17 @@
     </nav>
 
     <!-- Top Section -->
-    <section class="top-section hero-section">
-        <img class="hero-image" src="static/assets/img/background.jpeg" alt="Background image">
-
-        <div class="top-section-content">
-            <div class="container px-5">
-                <h2 id="top-section-bg-text" class="text-white display-3 lh-1 font-alt">
-                    For future safe, smart, and sustainable infrastructure
-                </h2>
-            </div>
+<section class="top-section hero-section">
+    <img class="hero-image" src="static/assets/img/background.jpeg" alt="Background image">
+    <div class="top-section-content">
+        <div class="container px-5">
+            <h2 id="top-section-bg-text" class="text-white display-3 lh-1 font-alt">
+                For Future Safe, Smart, and Sustainable Infrastructure
+            </h2>
         </div>
-    </section>
-    <!-- Top Section -->
+    </div>
+</section>
+<!-- Top Section -->
 
     <!-- Photo -->
     <div class="container px-5">
