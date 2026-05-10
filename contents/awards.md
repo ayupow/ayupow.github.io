@@ -1,4 +1,6 @@
-
-- First Prize (Ranked 1st) in Graduation Project Awards, Construction Management Society of Jiangsu Province, 2025
-- Outstanding Graduation Project Award of Southeast University, 2025.
-
+- First-class graduate scholarship (Top 10%), 2026
+- First grade excellent graduate design (theis) award of bachelor degree in Construction Management in Jiangsu Province (Top 1), 2025
+- Excellent graduation design (theis) award of Southeast University (Top 2%), 2025
+- Third prize award of 10th National BIM Graduation Design Competition, 2024
+- Second Prize award of 3rd National Industrialized Construction Competition, 2023
+- Outstanding volunteer of Southeast University, 2023
