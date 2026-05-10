@@ -1,6 +1,6 @@
 #### Submission under review
 
-- manuscript 01 under review in S× cites and × [[Github]](https://github.com/ayupow/LLM-Agent-based-on-TCG-TE-pattern-with-graph-guided-MCP-tools)
+- manuscript 01 under review in S× cites and S× [[Github]](https://github.com/ayupow/LLM-Agent-based-on-TCG-TE-pattern-with-graph-guided-MCP-tools)
 
 #### Journal papers
 - Zhou, S., <strong>Wang, H.</strong>, Li, D.*, Ng, S. T., Wei, R., Zhao, Y., & Zhou, Y. (2024). Revealing public attitudes toward mobile cabin hospitals during Covid-19 pandemic: Sentiment and topic analyses using social media data in China. <strong>Sustainable Cities and Society</strong>, 107, 105440. 
