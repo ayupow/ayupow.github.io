@@ -67,7 +67,7 @@
         };
     </script>
 
-    <!-- MathJax: keep only one version to avoid conflicts -->
+    <!-- MathJax -->
     <script type="text/javascript" id="MathJax-script" async
         src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
@@ -81,13 +81,21 @@
            Global polish
            ========================= */
 
+        :root {
+            --nav-height: 72px;
+            --primary-blue: #0d6efd;
+            --soft-gray: #f4f6f8;
+            --dark-text: #222;
+        }
+
         html {
             scroll-behavior: smooth;
+            scroll-padding-top: var(--nav-height);
         }
 
         body {
-            background-color: #f4f6f8;
-            color: #222;
+            background-color: var(--soft-gray);
+            color: var(--dark-text);
             line-height: 1.7;
             font-feature-settings: "kern";
             -webkit-font-smoothing: antialiased;
@@ -99,17 +107,12 @@
             padding-bottom: 4.5rem;
         }
 
-        /*
-         * Background color control:
-         * light = white
-         * gray = light gray
-         */
         .bg-gradient-primary-to-secondary-light {
             background: #ffffff !important;
         }
 
         .bg-gradient-primary-to-secondary-gray {
-            background: #f4f6f8 !important;
+            background: var(--soft-gray) !important;
         }
 
         .container {
@@ -126,7 +129,7 @@
         }
 
         .main-body a {
-            color: #0d6efd;
+            color: var(--primary-blue);
             text-decoration: none;
             border-bottom: 1px solid rgba(13, 110, 253, 0.25);
             transition: all 0.2s ease;
@@ -145,7 +148,7 @@
             margin-top: -0.6rem;
             margin-bottom: 2rem;
             padding-left: 1rem;
-            border-left: 4px solid #0d6efd;
+            border-left: 4px solid var(--primary-blue);
             line-height: 1.8;
         }
 
@@ -158,7 +161,7 @@
 
         section header h2 i {
             margin-right: 0.35rem;
-            color: #0d6efd;
+            color: var(--primary-blue);
         }
 
         /* =========================
@@ -166,10 +169,12 @@
            ========================= */
 
         #mainNav {
+            min-height: var(--nav-height);
             backdrop-filter: blur(12px);
             -webkit-backdrop-filter: blur(12px);
-            background-color: rgba(255, 255, 255, 0.92) !important;
+            background-color: rgba(255, 255, 255, 0.94) !important;
             border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+            z-index: 1030;
         }
 
         .navbar-brand,
@@ -187,61 +192,77 @@
         }
 
         .nav-link:hover {
-            color: #0d6efd !important;
+            color: var(--primary-blue) !important;
         }
 
         /* =========================
-   Top section polish
-   ========================= */
+           Top section polish
+           ========================= */
 
-.hero-section {
-    position: relative;
-    width: 100%;
-    padding: 0 !important;
-    margin: 0 !important;
-    overflow: hidden;
-    line-height: 0;
-}
+        .hero-section {
+            position: relative;
+            width: 100%;
+            padding: 0 !important;
+            margin: var(--nav-height) 0 0 0 !important;
+            overflow: visible;
+            line-height: 0;
+            background: #ffffff;
+        }
 
-.hero-image {
-    display: block;
-    width: 100%;
-    height: auto;
-    margin: 0;
-    padding: 0;
-}
+        .hero-image {
+            display: block;
+            width: 100%;
+            height: auto;
+            max-width: 100%;
+            margin: 0;
+            padding: 0;
+        }
 
-.top-section-content {
-    position: absolute;
-    inset: 0;
-    z-index: 2;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    line-height: normal;
-}
+        .hero-section::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+            z-index: 1;
+            background: linear-gradient(
+                rgba(0, 0, 0, 0.08),
+                rgba(0, 0, 0, 0.18)
+            );
+            pointer-events: none;
+        }
 
-.hero-section::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    z-index: 1;
-    background: linear-gradient(
-        rgba(0, 0, 0, 0.08),
-        rgba(0, 0, 0, 0.12)
-    );
-    pointer-events: none;
-}
+        .top-section-content {
+            position: absolute;
+            inset: 0;
+            z-index: 2;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            line-height: normal;
+            text-align: center;
+            pointer-events: none;
+        }
 
-#top-section-bg-text {
-    text-shadow: 0 5px 24px rgba(0, 0, 0, 0.35);
-}
+        #top-section-bg-text {
+            max-width: 1100px;
+            margin: 0 auto;
+            font-weight: 700;
+            letter-spacing: 0.02em;
+            text-shadow: 0 5px 24px rgba(0, 0, 0, 0.42);
+        }
 
         /* =========================
            Avatar polish
            ========================= */
 
+        #avatar {
+            position: relative;
+            z-index: 5;
+            margin-top: -42px;
+            margin-bottom: 1.5rem;
+        }
+
         #avatar img {
+            display: block;
             border-radius: 18px;
             border: 4px solid #ffffff;
             transition: transform 0.25s ease, box-shadow 0.25s ease;
@@ -262,9 +283,13 @@
             max-width: 1100px;
         }
 
+        #home {
+            padding-top: 3.5rem;
+        }
+
         #home .main-body,
         #awards .main-body {
-            background: rgba(255, 255, 255, 0.72);
+            background: rgba(255, 255, 255, 0.78);
             border: 1px solid rgba(0, 0, 0, 0.05);
             border-radius: 18px;
             padding: 1.6rem 1.8rem;
@@ -296,22 +321,14 @@
         .pub-images-box img {
             flex: 1 1 0;
             min-width: 0;
-
-            /*
-             * Three images in one row on desktop.
-             * Bigger than before, but controlled.
-             */
             width: calc((100% - 28px) / 3);
-            height: clamp(240px, 20vw, 310px);
-
+            height: clamp(250px, 21vw, 320px);
             object-fit: contain;
             background: #ffffff;
             padding: 8px;
-
             border-radius: 12px;
             border: 1px solid rgba(0, 0, 0, 0.08);
             box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
-
             transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
         }
 
@@ -344,6 +361,10 @@
            ========================= */
 
         @media (max-width: 900px) {
+            :root {
+                --nav-height: 66px;
+            }
+
             .pub-images-box {
                 flex-wrap: wrap;
             }
@@ -353,9 +374,23 @@
                 width: calc(50% - 14px);
                 height: 240px;
             }
+
+            #top-section-bg-text {
+                font-size: 2.2rem;
+                padding-left: 1rem;
+                padding-right: 1rem;
+            }
+
+            #avatar {
+                margin-top: -34px;
+            }
         }
 
         @media (max-width: 600px) {
+            :root {
+                --nav-height: 64px;
+            }
+
             section {
                 padding-top: 3rem;
                 padding-bottom: 3rem;
@@ -366,10 +401,29 @@
                 padding-right: 1.25rem !important;
             }
 
+            #top-section-bg-text {
+                font-size: 1.45rem;
+                line-height: 1.25;
+            }
+
+            #avatar {
+                margin-top: -26px;
+                margin-bottom: 1rem;
+            }
+
+            #home {
+                padding-top: 2.5rem;
+            }
+
             #home .main-body,
             #awards .main-body {
                 padding: 1.25rem;
                 border-radius: 14px;
+            }
+
+            .publication-motto {
+                font-size: 1.02rem;
+                margin-bottom: 1.6rem;
             }
 
             .pub-images-box {
@@ -421,14 +475,17 @@
     </nav>
 
     <!-- Top Section -->
-<section class="top-section hero-section">
-    <img class="hero-image" src="static/assets/img/background.jpeg" alt="Background image">
-    <div class="top-section-content">
-        <div class="container px-5">
-            <h2 id="top-section-bg-text" class="text-white display-3 lh-1 font-alt"></h2>
+    <section class="top-section hero-section">
+        <img class="hero-image" src="static/assets/img/background.jpeg" alt="Background image">
+
+        <div class="top-section-content">
+            <div class="container px-5">
+                <h2 id="top-section-bg-text" class="text-white display-3 lh-1 font-alt">
+                    For future safe, smart, and sustainable infrastructure
+                </h2>
+            </div>
         </div>
-    </div>
-</section>
+    </section>
     <!-- Top Section -->
 
     <!-- Photo -->
@@ -452,18 +509,20 @@
 
     <!-- Publications -->
     <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="publications">
-    <div class="container px-5">
-        <header>
-            <h2 id="publications-subtitle">
-                <i class="bi bi-file-text-fill"></i>&nbsp;PUBLICATIONS
-            </h2>
-        </header>
-        <p class="publication-motto">
-            I pursue research guided by my ISO (Industry-oriented, Solid, and Open) principle.
-        </p>
-        <div class="main-body" id="publications-md"></div>
-    </div>
-</section>
+        <div class="container px-5">
+            <header>
+                <h2 id="publications-subtitle">
+                    <i class="bi bi-file-text-fill"></i>&nbsp;PUBLICATIONS
+                </h2>
+            </header>
+
+            <p class="publication-motto">
+                I pursue research guided by my ISO (Industry-oriented, Solid, and Open) principle.
+            </p>
+
+            <div class="main-body" id="publications-md"></div>
+        </div>
+    </section>
     <!-- Publications -->
 
     <!-- Awards -->
