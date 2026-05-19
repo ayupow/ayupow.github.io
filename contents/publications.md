@@ -45,13 +45,13 @@
 [[Paper]](https://www.emerald.com/ecam/article-abstract/doi/10.1108/ECAM-06-2024-0701/1259739/Building-a-construction-law-knowledge-repository?redirectedFrom=fulltext) [[Github]](https://github.com/0AnonymousSite0/Question_Answering_of_Construction_Laws)
 
 #### Conference papers
-- <strong>Wang, H.</strong>, Zhou, S.*, et al. (2026). Large Language Model-based Agents for Identifying Critical Facilities within the Utility Infrastructure Networks: A Case in Shelby County 2026. ASCE International Conference on Computing in Civil Engineering (I3CE 2026)(accepted), Incheon, South Korea.
+- <strong>Wang, H.</strong>, Zhou, S.*, et al. (2026). Large Language Model-based Agents for Identifying Critical Facilities within the Utility Infrastructure Networks: A Case in Shelby County. 2026 ASCE International Conference on Computing in Civil Engineering (I3CE 2026)(accepted), Incheon, South Korea.
 
 <div class="pub-images-box">
       <img src="publication/conference1_fig1.png">
   </div>
 
-- Zhou, S., <strong>Wang, H.</strong>, Cheng, X., Li, D.*, Chen, Z., Wei, R., & Ng, S. T. (2024). Incorporating Domain Knowledge Repository into Large Language Models for Question-Answering of Construction Laws and Regulations in China. ASCE International Conference on Computing in Civil Engineering (I3CE 2024), Pittsburgh, USA.
+- Zhou, S., <strong>Wang, H.</strong>, Cheng, X., Li, D.*, Chen, Z., Wei, R., & Ng, S. T. (2024). Incorporating Domain Knowledge Repository into Large Language Models for Question-Answering of Construction Laws and Regulations in China. 2024 ASCE International Conference on Computing in Civil Engineering (I3CE 2024), Pittsburgh, USA.
 
 <div class="pub-images-box">
       <img src="publication/conference2_fig1.png">
