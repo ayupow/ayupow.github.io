@@ -14,7 +14,7 @@
 
 [[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S0957417426016143?via%3Dihub) [[Github]](https://github.com/ayupow/Smart-Agents-for-the-Recovery-of-Interdependent-Infrastructure-Networks)
 
-- <strong>Wang, H.</strong>, Hua, W., Peng, J., & Hu, M.* (2025). Public sentiment analysis of data center energy consumption using social media data and large language models. <strong>Energy and Buildings</strong>, 115802. 
+- <strong>Wang, H.</strong>, Hua, W., Peng, J., & Hu, M.* (2025). Public sentiment analysis of data center energy consumption using social media data and large language models. <strong>Energy and Buildings</strong>, 341, 115802. 
 
 <div class="pub-images-box">
       <img src="publication/paper3_fig1.png">
