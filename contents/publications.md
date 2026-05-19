@@ -1,6 +1,6 @@
 #### Submission under review
 
-- manuscript submitted to Sustainable Cities and Society [[Github]](https://github.com/ayupow/LLM-Agent-based-on-TCG-TE-pattern-with-graph-guided-MCP-tools)
+- manuscript submitted to Sustainable Cities and Society. [[Github]](https://github.com/ayupow/LLM-Agent-based-on-TCG-TE-pattern-with-graph-guided-MCP-tools)
 
 #### Journal papers
 
