@@ -5,6 +5,7 @@
       <img src="publication/paper5-fig1.png">
       <img src="publication/paper5-fig2.png">
       <img src="publication/paper5-fig3.png">
+       <img src="publication/paper5-fig4.png">
   </div>
 
 [[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S2210670726007304) [[Github]](https://github.com/ayupow/LLM-Agent-based-on-TCG-TE-pattern-with-graph-guided-MCP-tools)
@@ -32,6 +33,7 @@
 - Zhou, S., <strong>Wang, H.</strong>, Li, D.*, Ng, S. T., Wei, R., Zhao, Y., & Zhou, Y. (2024). Revealing public attitudes toward mobile cabin hospitals during Covid-19 pandemic: Sentiment and topic analyses using social media data in China. <strong>Sustainable Cities and Society</strong>, 107, 105440. 
 
 <div class="pub-images-box journal-images-box">
+      <img src="publication/paper1-fig4.png">
       <img src="publication/paper1_fig1.png">
       <img src="publication/paper1_fig2.png">
       <img src="publication/paper1_fig3.png">
@@ -45,6 +47,7 @@
       <img src="publication/paper2_fig1.png">
       <img src="publication/paper2_fig2.png">
       <img src="publication/paper2_fig3.png">
+      <img src="publication/paper2-fig4.png">
   </div>
 
 [[Paper]](https://www.emerald.com/ecam/article-abstract/doi/10.1108/ECAM-06-2024-0701/1259739/Building-a-construction-law-knowledge-repository?redirectedFrom=fulltext) [[Github]](https://github.com/0AnonymousSite0/Question_Answering_of_Construction_Laws)
