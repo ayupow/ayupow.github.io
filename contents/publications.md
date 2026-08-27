@@ -2,10 +2,10 @@
 - <strong>Wang, H.</strong>, Zhou, S.*, Chen, Z., Wang, W., Li, L., & Thomas Ng, S. (2026). LLM-empowered agents for lifeline network recovery with graph-guided MCP tools. <strong>Sustainable Cities and Society</strong>, 149, 107846.
 
 <div class="pub-images-box journal-images-box">
+      <img src="publication/paper5-fig4.png">
       <img src="publication/paper5-fig1.png">
       <img src="publication/paper5-fig2.png">
       <img src="publication/paper5-fig3.png">
-       <img src="publication/paper5-fig4.png">
   </div>
 
 [[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S2210670726007304) [[Github]](https://github.com/ayupow/LLM-Agent-based-on-TCG-TE-pattern-with-graph-guided-MCP-tools)
@@ -13,6 +13,7 @@
 - <strong>Wang, H.</strong>, Zhou, S.*, Chen, Z.*, Li, D., Wang, J., Wu, S,. & Ng, S. T. (2026). LLM-driven smart agents using tools for the recovery of interdependent infrastructure networks. <strong>Expert Systems with Applications</strong>, 325, 132701. 
 
 <div class="pub-images-box journal-images-box">
+      <img src="publication/paper4-fig4.png">
       <img src="publication/paper4_fig1.png">
       <img src="publication/paper4_fig2.png">
       <img src="publication/paper4_fig3.png">
@@ -23,6 +24,7 @@
 - <strong>Wang, H.</strong>, Hua, W., Peng, J., & Hu, M.* (2025). Public sentiment analysis of data center energy consumption using social media data and large language models. <strong>Energy and Buildings</strong>, 341, 115802. 
 
 <div class="pub-images-box journal-images-box">
+      <img src="publication/paper3-fig4.png">
       <img src="publication/paper3_fig1.png">
       <img src="publication/paper3_fig2.png">
       <img src="publication/paper3_fig3.png">
