@@ -11,18 +11,27 @@ Email: hongyu[at]seu.edu.cn; cmhyw[at]outlook.com
 
 #### Education
 **Jun 2025 – Present**  
+
 M.E. Student in Construction Management
+
 Southeast University (SEU)  
+
 Supervisor: [Dr. Shenghua Zhou](https://civil.seu.edu.cn/zsh/list.htm)
 
 **Jul 2024 – Dec 2024**  
+
 Visiting Student
+
 [BIOR Lab](https://maomaohu.net/people/), National University of Singapore (NUS)  
+
 Supervisor: [Dr. Maomao Hu](https://maomaohu.net/people/)
 
 **Jun 2021 – Jun 2025**  
+
 B.E. Student in Construction Management
+
 Southeast University (SEU)  
+
 Supervisor: [Dr. Shenghua Zhou](https://civil.seu.edu.cn/zsh/list.htm)
 
 #### Research Interests
