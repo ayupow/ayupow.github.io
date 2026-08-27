@@ -4,9 +4,9 @@
 
 - <strong>Wang, H.</strong>, Zhou, S.*, Chen, Z., Wang, W., Li, L., & Thomas Ng, S. (2026). LLM-empowered agents for lifeline network recovery with graph-guided MCP tools. <strong>Sustainable Cities and Society<strong>, 149, 107846. 
 <div class="pub-images-box">
-      <img src="publication/paper5_fig1.png">
-      <img src="publication/paper5_fig2.png">
-      <img src="publication/paper5_fig3.png">
+      <img src="publication/paper5-fig1.png">
+      <img src="publication/paper5-fig2.png">
+      <img src="publication/paper5-fig3.png">
   </div>
 
 [[Paper]](https://www.sciencedirect.com/science/article/abs/pii/S2210670726007304) [[Github]](https://github.com/ayupow/LLM-Agent-based-on-TCG-TE-pattern-with-graph-guided-MCP-tools)
