@@ -1,7 +1,7 @@
 #### Journal papers
 - <strong>Wang, H.</strong>, Zhou, S.*, Chen, Z., Wang, W., Li, L., & Thomas Ng, S. (2026). LLM-empowered agents for lifeline network recovery with graph-guided MCP tools. <strong>Sustainable Cities and Society</strong>, 149, 107846.
 
-<div class="pub-images-box">
+<div class="pub-images-box journal-images-box">
       <img src="publication/paper5-fig1.png">
       <img src="publication/paper5-fig2.png">
       <img src="publication/paper5-fig3.png">
@@ -11,7 +11,7 @@
 
 - <strong>Wang, H.</strong>, Zhou, S.*, Chen, Z.*, Li, D., Wang, J., Wu, S,. & Ng, S. T. (2026). LLM-driven smart agents using tools for the recovery of interdependent infrastructure networks. <strong>Expert Systems with Applications</strong>, 325, 132701. 
 
-<div class="pub-images-box">
+<div class="pub-images-box journal-images-box">
       <img src="publication/paper4_fig1.png">
       <img src="publication/paper4_fig2.png">
       <img src="publication/paper4_fig3.png">
@@ -21,7 +21,7 @@
 
 - <strong>Wang, H.</strong>, Hua, W., Peng, J., & Hu, M.* (2025). Public sentiment analysis of data center energy consumption using social media data and large language models. <strong>Energy and Buildings</strong>, 341, 115802. 
 
-<div class="pub-images-box">
+<div class="pub-images-box journal-images-box">
       <img src="publication/paper3_fig1.png">
       <img src="publication/paper3_fig2.png">
       <img src="publication/paper3_fig3.png">
@@ -31,7 +31,7 @@
 
 - Zhou, S., <strong>Wang, H.</strong>, Li, D.*, Ng, S. T., Wei, R., Zhao, Y., & Zhou, Y. (2024). Revealing public attitudes toward mobile cabin hospitals during Covid-19 pandemic: Sentiment and topic analyses using social media data in China. <strong>Sustainable Cities and Society</strong>, 107, 105440. 
 
-<div class="pub-images-box">
+<div class="pub-images-box journal-images-box">
       <img src="publication/paper1_fig1.png">
       <img src="publication/paper1_fig2.png">
       <img src="publication/paper1_fig3.png">
@@ -41,7 +41,7 @@
 
 - Zhou, S., <strong>Wang, H.</strong>, Ng, S. T., Li, D.*, Xie, S., Chen, K., & Wang, W. (2025). Building a construction law knowledge repository to enhance general-purpose large language model performance on domain question-answering: a case of China. <strong>Engineering, Construction and Architectural Management</strong>. 32 (13), 518–546. 
 
-<div class="pub-images-box">
+<div class="pub-images-box journal-images-box">
       <img src="publication/paper2_fig1.png">
       <img src="publication/paper2_fig2.png">
       <img src="publication/paper2_fig3.png">
