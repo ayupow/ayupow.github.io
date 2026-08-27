@@ -1,8 +1,6 @@
-
-
 #### Journal papers
+- <strong>Wang, H.</strong>, Zhou, S.*, Chen, Z., Wang, W., Li, L., & Thomas Ng, S. (2026). LLM-empowered agents for lifeline network recovery with graph-guided MCP tools. <strong>Sustainable Cities and Society<strong>, 149, 107846.
 
-- <strong>Wang, H.</strong>, Zhou, S.*, Chen, Z., Wang, W., Li, L., & Thomas Ng, S. (2026). LLM-empowered agents for lifeline network recovery with graph-guided MCP tools. <strong>Sustainable Cities and Society<strong>, 149, 107846. 
 <div class="pub-images-box">
       <img src="publication/paper5-fig1.png">
       <img src="publication/paper5-fig2.png">
