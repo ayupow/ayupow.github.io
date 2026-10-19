@@ -1,6 +1,6 @@
 'use strict';
 const contentDirectory = 'contents/';
-const sectionNames = ['home', 'publications', 'activities', 'awards'];
+const sectionNames = ['home', 'publications', 'ongoing', 'activities', 'awards'];
 
 async function readText(path) {
     const response = await fetch(path);

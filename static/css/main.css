@@ -50,7 +50,7 @@ button,a,summary {
 .navbar-nav {
   gap:24px}
 .navbar .nav-link {
-  font-size:13px;
+  font-size:14px;
   font-weight:650;
   color:var(--muted);
   padding:12px 0!important}
@@ -95,7 +95,7 @@ button,a,summary {
   padding-top:60px;
   padding-bottom:65px}
 .hero-kicker {
-  font-size:11px;
+  font-size:14px;
   letter-spacing:3px;
   font-weight:700;
   color:#c3d8f2;
@@ -125,7 +125,7 @@ button,a,summary {
 .typing-display:after {
   content:""}
 .eyebrow {
-  font-size:11px;
+  font-size:14px;
   font-weight:800;
   letter-spacing:2px;
   color:var(--blue);
@@ -157,7 +157,7 @@ section {
   align-items:center;
   gap:20px;
   border-radius:28px;
-  font-size:13px;
+  font-size:14px;
   font-weight:700;
   padding:11px 20px;
   white-space:nowrap}
@@ -220,9 +220,9 @@ section {
   gap:2px;
   border-top:1px solid var(--line);
   padding-top:21px;
-  font-size:13px}
+  font-size:14px}
 .profile-contact span {
-  font-size:11px;
+  font-size:14px;
   color:var(--muted);
   margin-bottom:9px}
 .social-links {
@@ -230,7 +230,7 @@ section {
   flex-wrap:wrap;
   gap:9px 12px;
   margin-top:23px;
-  font-size:11px;
+  font-size:14px;
   font-weight:650}
 .bio-intro {
   font-size:20px;
@@ -252,7 +252,7 @@ section {
   padding:0;
   margin:0}
 .interest-tags li {
-  font-size:12px;
+  font-size:14px;
   font-weight:650;
   color:#205b9d;
   border:1px solid #d6e3f2;
@@ -283,18 +283,18 @@ section {
   padding-right:145px;
   line-height:1.5}
 .education-card p {
-  font-size:12px;
+  font-size:14px;
   color:var(--muted);
   margin:2px 0}
 .education-date {
   position:absolute;
   right:20px;
   top:25px;
-  font-size:11px;
+  font-size:14px;
   font-weight:750;
   color:var(--blue)}
 .publication-motto {
-  font-size:13px;
+  font-size:14px;
   font-style:italic;
   color:var(--muted);
   border-left:2px solid var(--blue);
@@ -304,7 +304,7 @@ section {
   display:flex;
   justify-content:space-between;
   gap:16px;
-  font-size:12px;
+  font-size:14px;
   font-weight:800;
   letter-spacing:1.5px;
   text-transform:uppercase;
@@ -346,14 +346,14 @@ section {
   margin:0 60px 8px 0}
 .year-badge {
   float:right;
-  font-size:11px;
+  font-size:14px;
   font-weight:750;
   background:var(--pale);
   color:var(--blue);
   padding:3px 10px;
   border-radius:20px}
 .authors,.venue {
-  font-size:12px;
+  font-size:14px;
   color:var(--muted);
   margin:3px 0;
   line-height:1.7}
@@ -368,7 +368,7 @@ section {
   gap:18px;
   justify-content:flex-end;
   margin-top:12px;
-  font-size:12px;
+  font-size:14px;
   font-weight:750}
 .paper-details {
   margin-left:173px;
@@ -377,7 +377,7 @@ section {
   padding-top:10px}
 .paper-details summary {
   cursor:pointer;
-  font-size:12px;
+  font-size:14px;
   font-weight:750;
   color:var(--blue);
   padding:3px 0;
@@ -396,15 +396,15 @@ section {
   border-radius:8px;
   padding:17px}
 .research-summary h5 {
-  font-size:13px;
+  font-size:14px;
   font-weight:750;
   margin:0 0 7px}
 .research-summary p {
-  font-size:13px;
+  font-size:14px;
   color:var(--muted);
   margin:0 0 7px}
 .research-summary a {
-  font-size:11px}
+  font-size:14px}
 .paper-gallery {
   display:grid;
   grid-template-columns:repeat(2,minmax(0,1fr));
@@ -466,7 +466,7 @@ section {
   border-top:1px solid #e9eef4}
 .awards-list time {
   white-space:nowrap;
-  font-size:12px;
+  font-size:14px;
   color:var(--blue);
   font-weight:700}
 footer {
@@ -474,7 +474,7 @@ footer {
   text-align:center;
   background:#10283f;
   color:#b7c5d4;
-  font-size:12px}
+  font-size:14px}
 footer p {
   margin:0 0 8px}
 footer a {
@@ -525,7 +525,7 @@ footer a {
   padding-top:45px;
   padding-bottom:45px}
 .hero-kicker {
-  font-size:9px;
+  font-size:14px;
   letter-spacing:2px}
 #top-section-bg-text {
   letter-spacing:-.7px}
@@ -553,7 +553,7 @@ footer a {
   letter-spacing:-1px}
 .outline-button {
   padding:8px 15px;
-  font-size:12px}
+  font-size:14px}
 section,#home {
   padding:45px 0}
 .paper-overview {
@@ -596,7 +596,7 @@ section,#home {
 .education-card h4 {
   font-size:14px}
 .education-date {
-  font-size:11px}
+  font-size:14px}
 }
 
 @media(prefers-reduced-motion:reduce) {
@@ -628,7 +628,7 @@ section,#home {
   border-top: 1px solid var(--line);
 }
 .joint-training h5 {
-  font-size: 13px;
+  font-size:14px;
   font-weight: 750;
   margin: 0 0 5px;
 }
@@ -641,7 +641,7 @@ section,#home {
 .journal-metrics span {
   padding: 2px 9px;
   border-radius: 14px;
-  font-size: 11px;
+  font-size:14px;
   font-weight: 750;
   color: var(--blue);
   background: var(--pale);
@@ -684,7 +684,7 @@ section,#home {
 }
 .joint-training-date {
   color: var(--blue);
-  font-size: 11px;
+  font-size:14px;
   font-weight: 750;
   white-space: nowrap;
 }
@@ -712,4 +712,124 @@ section,#home {
 }
 .education-card > img {
   grid-row: auto;
+}
+
+/* Readable supporting text and two-line award entries. */
+.profile-card .profile-role {
+  color: #222;
+}
+.awards-list li {
+  display: block;
+}
+.award-name {
+  display: block;
+  font-size: 16px;
+  font-weight: 650;
+  line-height: 1.6;
+}
+.award-meta {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 5px 20px;
+  margin-top: 6px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+#activities .moment-date {
+  font-size: 20px;
+  font-weight: 750;
+  color: var(--ink);
+  margin-bottom: 12px;
+}
+
+.ongoing-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 25px;
+}
+.ongoing-card {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  box-shadow: 0 8px 25px #102e4606;
+}
+.ongoing-image {
+  display: block;
+  position: relative;
+  background: #eaf0f6;
+  height: 260px;
+  overflow: hidden;
+}
+.ongoing-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+}
+.ongoing-number {
+  position: absolute;
+  bottom: 15px;
+  left: 20px;
+  padding: 2px 12px;
+  border-radius: 20px;
+  background: var(--blue);
+  color: #fff;
+  font-size: 14px;
+  font-weight: 750;
+}
+.ongoing-body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 25px;
+}
+.ongoing-body h3 {
+  font-size: 21px;
+  font-weight: 750;
+  line-height: 1.45;
+  margin: 0 0 15px;
+}
+.ongoing-authors {
+  font-size: 14px;
+  color: var(--muted);
+  margin-bottom: 20px;
+}
+.ongoing-authors strong { color: var(--ink); }
+.ongoing-targets {
+  border-top: 1px solid var(--line);
+  padding-top: 16px;
+  margin-bottom: 24px;
+  font-size: 15px;
+}
+.ongoing-targets p { margin: 0 0 6px; }
+.ongoing-targets p:first-child { font-weight: 700; }
+.ongoing-targets em { color: var(--muted); }
+.ongoing-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin: auto 0 0;
+  padding: 0;
+  list-style: none;
+}
+.ongoing-tags li {
+  font-size: 14px;
+  font-weight: 650;
+  background: var(--pale);
+  color: var(--blue);
+  border-radius: 20px;
+  padding: 3px 11px;
+}
+@media (max-width: 767px) {
+  .ongoing-grid { grid-template-columns: 1fr; }
+  .ongoing-image { height: 220px; }
+  .ongoing-body { padding: 21px; }
+  .ongoing-body h3 { font-size: 19px; }
 }

@@ -10,9 +10,7 @@
 </aside>
 <div class="bio-content">
 <h2>Biography</h2>
-<p class="bio-intro">I am a master's student in the School of Civil Engineering at Southeast University.</p>
-<h3>Research Interests</h3>
-<ul class="interest-tags"><li>Interdependent Infrastructure</li><li>Large Language Models</li><li>Deep Learning</li></ul>
+<p class="bio-intro">I am actively looking for a Ph.D. opportunity starting in 2028.</p>
 <h3>Education &amp; Academic Visits</h3>
 <div class="education-list">
 <article class="education-card"><img src="static/assets/img/seu-logo.png" alt="Southeast University logo" width="64" height="64"><div><div class="education-heading"><h4>M.E. in Construction Management</h4><span class="education-date">Sep 2025 – Present</span></div><p>Southeast University (SEU)</p><p>Supervisor: <a href="https://civil.seu.edu.cn/zsh/list.htm">Dr. Shenghua Zhou</a></p><div class="joint-training"><div class="joint-training-heading"><h4>Joint-training M.E.</h4><span class="joint-training-date">Sep 2026 – Present</span></div><p><a href="https://seuczy.com/">Embodied Reasoning and Robotics (ER2) Lab ↗</a></p><p>Co-supervisor: <a href="https://seuczy.com/">Prof. Zhengyi Chen</a></p></div></div></article>

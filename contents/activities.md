@@ -1,5 +1,6 @@
+<p class="moment-date"><time datetime="2026-06-14">Jun 14–17, 2026</time></p>
+
 #### I3CE 2026, Songdo, South Korea
-**June 2026**
 
 Hongyu Wang made an oral presentation in 2026 ASCE International Conference on Computing in Civil Engineering (I3CE 2026)
 
