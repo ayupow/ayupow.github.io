@@ -1,13 +1,4 @@
 'use strict';
-const contentDirectory = 'contents/';
-const sectionNames = ['home', 'publications', 'ongoing', 'activities', 'awards'];
-
-async function readText(path) {
-    const response = await fetch(path);
-    if (!response.ok) throw new Error(`${path}: HTTP ${response.status}`);
-    return response.text();
-}
-
 function prepareLinks(container) {
     container.querySelectorAll('a[href]').forEach(link => {
         if (/^https?:\/\//i.test(link.getAttribute('href'))) {
@@ -95,38 +86,19 @@ window.addEventListener('DOMContentLoaded', async () => {
             }
         });
     });
-    // Fetch configuration and all sections concurrently.
-    const configuration = (async () => {
-        try {
-            const values = jsyaml.load(await readText(contentDirectory + 'config.yml'));
-            Object.entries(values || {}).forEach(([key, value]) => {
-                const element = document.getElementById(key);
-                if (element) element.innerHTML = String(value);
+    // All text is already present in the initial HTML. JavaScript only enhances it.
+    startHeroAnimation();
+    document.querySelectorAll('.paper-details').forEach(details => {
+        details.addEventListener('toggle', () => {
+            if (details.open) details.querySelectorAll('img[data-src]').forEach(img => {
+                img.src = img.dataset.src;
+                img.removeAttribute('data-src');
             });
-        } catch (error) { console.warn('Using default page configuration', error); }
-        startHeroAnimation();
-    })();
-    marked.use({ mangle: false, headerIds: false });
-    const sections = sectionNames.map(async name => {
-        const container = document.getElementById(name + '-md');
-        try {
-            container.innerHTML = marked.parse(await readText(contentDirectory + name + '.md'));
-            prepareLinks(container);
-            container.querySelectorAll('.paper-details').forEach(details => {
-                details.addEventListener('toggle', () => {
-                    if (details.open) details.querySelectorAll('img[data-src]').forEach(img => {
-                        img.src = img.dataset.src;
-                        img.removeAttribute('data-src');
-                    });
-                });
-            });
-            void typesetIfNeeded(container);
-        } catch (error) {
-            container.innerHTML = '<p class="load-error">This section could not be loaded. Please refresh the page to try again.</p>';
-            console.error(error);
-        } finally { container.setAttribute('aria-busy', 'false'); }
+        });
     });
     prepareLinks(document);
-    await Promise.allSettled([configuration, ...sections]);
+    document.querySelectorAll('main > section .main-body').forEach(container => {
+        void typesetIfNeeded(container);
+    });
     if (window.bootstrap) new bootstrap.ScrollSpy(document.body, { target: '#mainNav', offset: 95 });
 });
