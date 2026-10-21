@@ -833,3 +833,21 @@ section,#home {
   .ongoing-body { padding: 21px; }
   .ongoing-body h3 { font-size: 19px; }
 }
+
+/* Keep every hyperlink visibly underlined in all interaction states. */
+a[href],
+a[href]:visited,
+a[href]:hover,
+a[href]:focus,
+a[href]:active {
+  text-decoration-line: underline;
+  text-underline-offset: 0.18em;
+  text-decoration-thickness: 1px;
+}
+
+/* Navigation and button-style links keep their existing visual treatment. */
+#mainNav a[href],
+a.primary-button[href],
+a.outline-button[href] {
+  text-decoration-line: none;
+}
