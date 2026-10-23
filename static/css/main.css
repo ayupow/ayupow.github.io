@@ -17,7 +17,7 @@ body {
   background:var(--canvas);
   color:var(--ink);
   font-family:system-ui,-apple-system,"Segoe UI",sans-serif;
-  font-size:15px;
+  font-size:16.5px;
   line-height:1.7}
 a {
   color:var(--blue);
@@ -43,21 +43,21 @@ button,a,summary {
   border-bottom:1px solid var(--line);
   box-shadow:0 2px 15px #102e4606}
 .navbar-brand {
-  font-size:20px;
+  font-size:22px;
   font-weight:750;
   color:var(--ink)!important;
   letter-spacing:-.5px}
 .navbar-nav {
   gap:24px}
 .navbar .nav-link {
-  font-size:14px;
+  font-size:16.8px;
   font-weight:650;
   color:var(--muted);
   padding:12px 0!important}
 .navbar .nav-link:hover,.navbar .nav-link.active {
   color:var(--blue)}
 .navbar-toggler {
-  font-size:20px;
+  font-size:22px;
   padding:10px 12px}
 .skip-link {
   position:fixed;
@@ -95,7 +95,7 @@ button,a,summary {
   padding-top:60px;
   padding-bottom:65px}
 .hero-kicker {
-  font-size:14px;
+  font-size:16.8px;
   letter-spacing:3px;
   font-weight:700;
   color:#c3d8f2;
@@ -105,7 +105,7 @@ button,a,summary {
   max-width:920px;
   font-family:Georgia,"Times New Roman",serif;
   font-weight:400;
-  font-size:clamp(32px,4.4vw,56px);
+  font-size:clamp(35.2px,4.84vw,61.6px);
   line-height:1.2;
   letter-spacing:-1.3px;
   margin:0}
@@ -125,7 +125,7 @@ button,a,summary {
 .typing-display:after {
   content:""}
 .eyebrow {
-  font-size:14px;
+  font-size:16.8px;
   font-weight:800;
   letter-spacing:2px;
   color:var(--blue);
@@ -146,7 +146,7 @@ section {
   margin-bottom:28px}
 .section-heading h2,.bio-content h2 {
   font-family:Georgia,"Times New Roman",serif;
-  font-size:clamp(34px,4vw,49px);
+  font-size:clamp(37.4px,4.4vw,53.9px);
   font-weight:700;
   letter-spacing:-1.7px;
   line-height:1.15;
@@ -157,7 +157,7 @@ section {
   align-items:center;
   gap:20px;
   border-radius:28px;
-  font-size:14px;
+  font-size:16.8px;
   font-weight:700;
   padding:11px 20px;
   white-space:nowrap}
@@ -195,14 +195,14 @@ section {
   margin-bottom:21px}
 .profile-card h1 {
   font-family:Georgia,"Times New Roman",serif;
-  font-size:29px;
+  font-size:31.9px;
   line-height:1.2;
   letter-spacing:-.8px;
   margin:0 0 17px}
 .profile-card h1 span {
   display:block;
   font-family:system-ui,sans-serif;
-  font-size:18px;
+  font-size:19.8px;
   letter-spacing:3px;
   margin-top:12px}
 .profile-card p {
@@ -211,7 +211,7 @@ section {
 .profile-card .profile-role {
   color:var(--blue);
   font-weight:700;
-  font-size:16px;
+  font-size:17.6px;
   margin-bottom:3px}
 .profile-contact {
   display:flex;
@@ -220,9 +220,9 @@ section {
   gap:2px;
   border-top:1px solid var(--line);
   padding-top:21px;
-  font-size:14px}
+  font-size:16.8px}
 .profile-contact span {
-  font-size:14px;
+  font-size:16.8px;
   color:var(--muted);
   margin-bottom:9px}
 .social-links {
@@ -230,10 +230,10 @@ section {
   flex-wrap:wrap;
   gap:9px 12px;
   margin-top:23px;
-  font-size:14px;
+  font-size:16.8px;
   font-weight:650}
 .bio-intro {
-  font-size:20px;
+  font-size:22px;
   line-height:1.6;
   margin:25px 0 12px;
   max-width:750px}
@@ -241,7 +241,7 @@ section {
   color:var(--muted);
   margin:0 0 25px}
 .bio-content h3 {
-  font-size:16px;
+  font-size:17.6px;
   font-weight:750;
   margin:28px 0 13px}
 .interest-tags {
@@ -252,7 +252,7 @@ section {
   padding:0;
   margin:0}
 .interest-tags li {
-  font-size:14px;
+  font-size:16.8px;
   font-weight:650;
   color:#205b9d;
   border:1px solid #d6e3f2;
@@ -277,24 +277,24 @@ section {
   height:56px;
   object-fit:contain}
 .education-card h4 {
-  font-size:15px;
+  font-size:16.5px;
   font-weight:750;
   margin:0 0 4px;
   padding-right:145px;
   line-height:1.5}
 .education-card p {
-  font-size:14px;
+  font-size:16.8px;
   color:var(--muted);
   margin:2px 0}
 .education-date {
   position:absolute;
   right:20px;
   top:25px;
-  font-size:14px;
+  font-size:16.8px;
   font-weight:750;
   color:var(--blue)}
 .publication-motto {
-  font-size:14px;
+  font-size:16.8px;
   font-style:italic;
   color:var(--muted);
   border-left:2px solid var(--blue);
@@ -304,7 +304,7 @@ section {
   display:flex;
   justify-content:space-between;
   gap:16px;
-  font-size:14px;
+  font-size:16.8px;
   font-weight:800;
   letter-spacing:1.5px;
   text-transform:uppercase;
@@ -339,21 +339,21 @@ section {
   min-width:0;
   flex:1}
 .paper-info h4 {
-  font-size:17px;
+  font-size:18.7px;
   font-weight:750;
   line-height:1.45;
   letter-spacing:-.25px;
   margin:0 60px 8px 0}
 .year-badge {
   float:right;
-  font-size:14px;
+  font-size:16.8px;
   font-weight:750;
   background:var(--pale);
   color:var(--blue);
   padding:3px 10px;
   border-radius:20px}
 .authors,.venue {
-  font-size:14px;
+  font-size:16.8px;
   color:var(--muted);
   margin:3px 0;
   line-height:1.7}
@@ -368,7 +368,7 @@ section {
   gap:18px;
   justify-content:flex-end;
   margin-top:12px;
-  font-size:14px;
+  font-size:16.8px;
   font-weight:750}
 .paper-details {
   margin-left:173px;
@@ -377,7 +377,7 @@ section {
   padding-top:10px}
 .paper-details summary {
   cursor:pointer;
-  font-size:14px;
+  font-size:16.8px;
   font-weight:750;
   color:var(--blue);
   padding:3px 0;
@@ -396,15 +396,15 @@ section {
   border-radius:8px;
   padding:17px}
 .research-summary h5 {
-  font-size:14px;
+  font-size:16.8px;
   font-weight:750;
   margin:0 0 7px}
 .research-summary p {
-  font-size:14px;
+  font-size:16.8px;
   color:var(--muted);
   margin:0 0 7px}
 .research-summary a {
-  font-size:14px}
+  font-size:16.8px}
 .paper-gallery {
   display:grid;
   grid-template-columns:repeat(2,minmax(0,1fr));
@@ -430,12 +430,12 @@ section {
   border-radius:14px;
   padding:28px}
 #activities h4 {
-  font-size:21px;
+  font-size:23.1px;
   color:var(--ink);
   font-weight:700;
   margin:0 0 14px}
 #activities p {
-  font-size:14px;
+  font-size:16.8px;
   color:var(--muted)}
 .activities-images-box {
   display:grid;
@@ -460,13 +460,13 @@ section {
   justify-content:space-between;
   gap:30px;
   padding:21px 26px;
-  font-size:14px;
+  font-size:16.8px;
   align-items:baseline}
 .awards-list li+li {
   border-top:1px solid #e9eef4}
 .awards-list time {
   white-space:nowrap;
-  font-size:14px;
+  font-size:16.8px;
   color:var(--blue);
   font-weight:700}
 footer {
@@ -474,7 +474,7 @@ footer {
   text-align:center;
   background:#10283f;
   color:#b7c5d4;
-  font-size:14px}
+  font-size:16.8px}
 footer p {
   margin:0 0 8px}
 footer a {
@@ -525,7 +525,7 @@ footer a {
   padding-top:45px;
   padding-bottom:45px}
 .hero-kicker {
-  font-size:14px;
+  font-size:16.8px;
   letter-spacing:2px}
 #top-section-bg-text {
   letter-spacing:-.7px}
@@ -545,7 +545,7 @@ footer a {
 .profile-contact {
   text-align:center}
 .bio-intro {
-  font-size:18px}
+  font-size:19.8px}
 .section-heading {
   align-items:flex-start;
   flex-wrap:wrap}
@@ -553,7 +553,7 @@ footer a {
   letter-spacing:-1px}
 .outline-button {
   padding:8px 15px;
-  font-size:14px}
+  font-size:16.8px}
 section,#home {
   padding:45px 0}
 .paper-overview {
@@ -564,7 +564,7 @@ section,#home {
 .publication-card {
   padding:18px}
 .paper-info h4 {
-  font-size:15px;
+  font-size:16.5px;
   margin-right:0;
   clear:both}
 .year-badge {
@@ -594,9 +594,9 @@ section,#home {
 .education-card {
   padding:18px 15px}
 .education-card h4 {
-  font-size:14px}
+  font-size:16.8px}
 .education-date {
-  font-size:14px}
+  font-size:16.8px}
 }
 
 @media(prefers-reduced-motion:reduce) {
@@ -628,7 +628,7 @@ section,#home {
   border-top: 1px solid var(--line);
 }
 .joint-training h5 {
-  font-size:14px;
+  font-size:16.8px;
   font-weight: 750;
   margin: 0 0 5px;
 }
@@ -641,7 +641,7 @@ section,#home {
 .journal-metrics span {
   padding: 2px 9px;
   border-radius: 14px;
-  font-size:14px;
+  font-size:16.8px;
   font-weight: 750;
   color: var(--blue);
   background: var(--pale);
@@ -667,7 +667,7 @@ section,#home {
 }
 
 .publication-motto {
-  font-size: 16px;
+  font-size: 17.6px;
   line-height: 1.8;
 }
 .joint-training-heading {
@@ -684,7 +684,7 @@ section,#home {
 }
 .joint-training-date {
   color: var(--blue);
-  font-size:14px;
+  font-size:16.8px;
   font-weight: 750;
   white-space: nowrap;
 }
@@ -723,7 +723,7 @@ section,#home {
 }
 .award-name {
   display: block;
-  font-size: 16px;
+  font-size: 17.6px;
   font-weight: 650;
   line-height: 1.6;
 }
@@ -735,11 +735,11 @@ section,#home {
   gap: 5px 20px;
   margin-top: 6px;
   color: var(--muted);
-  font-size: 14px;
+  font-size: 16.8px;
 }
 
 #activities .moment-date {
-  font-size: 24px;
+  font-size: 26.4px;
   font-weight: 750;
   color: var(--ink);
   margin-bottom: 12px;
@@ -781,7 +781,7 @@ section,#home {
   border-radius: 20px;
   background: var(--blue);
   color: #fff;
-  font-size: 14px;
+  font-size: 16.8px;
   font-weight: 750;
 }
 .ongoing-body {
@@ -791,13 +791,13 @@ section,#home {
   padding: 25px;
 }
 .ongoing-body h3 {
-  font-size: 21px;
+  font-size: 23.1px;
   font-weight: 750;
   line-height: 1.45;
   margin: 0 0 15px;
 }
 .ongoing-authors {
-  font-size: 14px;
+  font-size: 16.8px;
   color: var(--muted);
   margin-bottom: 20px;
 }
@@ -806,7 +806,7 @@ section,#home {
   border-top: 1px solid var(--line);
   padding-top: 16px;
   margin-bottom: 24px;
-  font-size: 15px;
+  font-size: 16.5px;
 }
 .ongoing-targets p { margin: 0 0 6px; }
 .ongoing-targets p:first-child { font-weight: 700; }
@@ -820,7 +820,7 @@ section,#home {
   list-style: none;
 }
 .ongoing-tags li {
-  font-size: 14px;
+  font-size: 16.8px;
   font-weight: 650;
   background: var(--pale);
   color: var(--blue);
@@ -831,7 +831,7 @@ section,#home {
   .ongoing-grid { grid-template-columns: 1fr; }
   .ongoing-image { height: 220px; }
   .ongoing-body { padding: 21px; }
-  .ongoing-body h3 { font-size: 19px; }
+  .ongoing-body h3 { font-size: 20.9px; }
 }
 
 /* Keep every hyperlink visibly underlined in all interaction states. */
@@ -873,10 +873,10 @@ a.outline-button[href] {
 
 /* Larger navigation and news copy, with wrapping inside the mobile menu. */
 .navbar .nav-link {
-  font-size: 21px;
+  font-size: 23.1px;
 }
 #activities .activity-entry > p:not(.moment-date) {
-  font-size: 16px;
+  font-size: 17.6px;
   line-height: 1.8;
 }
 @media (min-width: 992px) and (max-width: 1199px) {
