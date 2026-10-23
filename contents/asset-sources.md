@@ -30,3 +30,7 @@ Journal covers supplied by the author in `contents/small figs/`: 15-29-02 → Su
 Follow-up: supplied SEU journal cover (`2026-10-19 15-32-43屏幕截图.png`) and I3CE banners (`11111.webp` for 2024; `host255689594.jpg` for 2026) replace remaining thumbnails. The supplied SEU cover identifies the journal and is not the cited 2026 issue. Removed Nature Index from the 2024 SCS card. Four papers with Wang following supervisor Zhou carry the author-supplied label “First (after my supervisor) author”.
 
 Ongoing Research: author-provided healthcare figure `contents/ongoing work/微信图片_20261019165000_136_4.jpg` and robotics figure `contents/ongoing work/微信图片_20261019165131_137_4.jpg`. Web-sized derivatives are stored in `static/assets/optimized/ongoing-*.webp`; project metadata and target venues are supplied by the author. Target venues are aspirations, not publication or submission status.
+
+Activities update (2026-10-23): author-supplied `static/assets/img/Certificate_ESWA_Recognised.pdf`, a one-page Elsevier Certificate of Reviewing for one review in October 2026, was rasterized to `static/assets/optimized/certificate-eswa-recognised.webp`. The inline image links to the original PDF.
+
+News update: NUS visit photographs supplied in `static/assets/img/visiting/`, displayed in numeric order 1, 2, 3 via WebP derivatives `visiting-1.webp` to `visiting-3.webp`. Visit date and description supplied by the author.

@@ -57,7 +57,7 @@ button,a,summary {
 .navbar .nav-link:hover,.navbar .nav-link.active {
   color:var(--blue)}
 .navbar-toggler {
-  font-size:14px;
+  font-size:20px;
   padding:10px 12px}
 .skip-link {
   position:fixed;
@@ -739,7 +739,7 @@ section,#home {
 }
 
 #activities .moment-date {
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 750;
   color: var(--ink);
   margin-bottom: 12px;
@@ -850,4 +850,39 @@ a[href]:active {
 a.primary-button[href],
 a.outline-button[href] {
   text-decoration-line: none;
+}
+
+/* Activity records retain their own date, description, and supporting image. */
+.activity-entry + .activity-entry {
+  border-top: 1px solid var(--line);
+  margin-top: 32px;
+  padding-top: 30px;
+}
+.activity-certificate {
+  display: block;
+  max-width: 820px;
+  margin-top: 22px;
+}
+.activity-certificate img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--line);
+  border-radius: 9px;
+}
+
+/* Larger navigation and news copy, with wrapping inside the mobile menu. */
+.navbar .nav-link {
+  font-size: 21px;
+}
+#activities .activity-entry > p:not(.moment-date) {
+  font-size: 16px;
+  line-height: 1.8;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .navbar-nav { gap: 16px; }
+}
+
+.bio-intro {
+  color: #FF0000;
 }
