@@ -3,7 +3,7 @@
 
 Hongyu made review contribution to *Expert Systems with Applications* (ESWA).
 
-<a class="activity-certificate" href="static/assets/img/Certificate_ESWA_Recognised.pdf" aria-label="Open the ESWA Certificate of Reviewing PDF"><img src="static/assets/optimized/certificate-eswa-recognised.webp" loading="lazy" decoding="async" alt="ESWA certificate of reviewing"></a>
+<a class="activity-certificate" href="static/assets/img/Certificate_ESWA_Recognised.pdf" aria-label="Open the ESWA Certificate of Reviewing PDF"><img src="static/assets/optimized/certificate-eswa-recognised.webp" width="1400" height="990" alt="Certificate of Reviewing awarded to Hongyu Wang for one review for Expert Systems with Applications in October 2026" loading="lazy" decoding="async"></a>
 </article>
 
 <article class="activity-entry">
