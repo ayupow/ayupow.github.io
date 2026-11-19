@@ -9,7 +9,7 @@
 </div>
 </article>
 <article class="ongoing-card">
-<a class="ongoing-image" href="contents/ongoing%20work/IMG_20261110_153249.jpg" aria-label="View cross-floor robot navigation research figure"><img src="contents/ongoing%20work/IMG_20261110_153249.jpg" alt="Cross-floor robot navigation research figure" loading="lazy" decoding="async"><span class="ongoing-number" aria-hidden="true">02</span></a>
+<a class="ongoing-image" href="static/assets/optimized/ongoing-robotics.gif" aria-label="View cross-floor robot navigation demonstration"><img src="static/assets/optimized/ongoing-robotics.gif" alt="Animated demonstration of cross-floor robot navigation" width="640" height="360" loading="lazy" decoding="async"><span class="ongoing-number" aria-hidden="true">02</span></a>
 <div class="ongoing-body">
 <h3>Cross-floor spatial perception and navigation robots empowered by VLMs</h3>
 <p class="ongoing-authors"><strong>Wang, H.</strong>, Chen, Z., Zhou, S., et al.</p>
